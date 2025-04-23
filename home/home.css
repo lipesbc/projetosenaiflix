@@ -147,7 +147,24 @@ button, input, select {
             width: 40%;
             height: auto;
             aspect-ratio: 2 /3;
-        }    
+        } 
+        
+        .menu-mobile {
+            display: none;
+            flex-direction: column;
+            position: absolute;
+            top: 60px;
+            right: 10px;
+            background: #111;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        
+        .menu-mobile a {
+            color: white;
+            text-decoration: none;
+            margin: 10px 0;
+        }   
     
 
     }
